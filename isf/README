@@ -5,9 +5,9 @@ chambers of an arrangement of hyperplanes having a point in common.
 
 ------------------------------------------------------------------------
 
-Descrition of the functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The B-diffrential computed by BDIFFMIN is a concept of derivative for a
+Description of the functions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The B-differential computed by BDIFFMIN is a concept of derivative for a
 nonsmooth function. The function considered by BDIFFMIN is the
 componentwise minimum of two affine vector functions: x -> min
 (Ax+a,Bx+b), where A and B are mxn real matrices, while a and b are real
@@ -32,7 +32,7 @@ number of other enumeration problems such as
 Directory content
 ^^^^^^^^^^^^^^^^^
 This directory contains the codes ISF and BDIFFMIN described in the
-documentation ./doc/doc.pdf. This one cam also be found on Hal
+documentation ./doc/doc.pdf. This one can also be found on Hal
 (https://hal.science/hal-04102933).
 
 Here is a description of the contents of its directories:
@@ -44,7 +44,7 @@ Here is a description of the contents of its directories:
 README-MPC provides a description of how to assess the numerical results
 presented in the paper 'On the B-differential of the componentwise
 minimum of two affine vector functions' by J.-P. Dussault, J.Ch. Gilbert
-and B. Plaqevent-Jourdain. This is required for a submission to the
+and B. Plaquevent-Jourdain. This is required for a submission to the
 journal 'Mathematical Programming Computation'. The paper is available
 on http://hal.archives-ouvertes.fr/hal-04048393. The Matlab scripts
 certify_*.m have been designed for that purpose.
@@ -58,11 +58,11 @@ To use BDIFFMIN or ISF, you should have the possibility to use Matlab
 that programming language).
 
 Then, place the ISF directory somewhere in the Unix hierarchy, say in
-isfdir and add the instruction 'addpath
+isfdir and add the instruction
 
    addpath('isfdir/src');
 
-in the scipt/function that will use isf.
+in the script/function that will use ISF.
 
 ------------------------------------------------------------------------
 
@@ -79,3 +79,11 @@ Download
 The code can be downloaded from SotwareHeritage at the following address
 
 https://archive.softwareheritage.org/browse/directory/0130daa41369602815de959df3fbe6de244c5763/?origin_url=https://hal.archives-ouvertes.fr/hal-04124994&release=HEAD&snapshot=1b642a2e1d9a9cf37b10b9c5487eccbad9b721e5
+
+------------------------------------------------------------------------
+
+Contacts
+- Jean-Pierre Dussault (Jean-Pierre.Dussault@Usherbrooke.CA)
+- Jean-Charles Gilbert (Jean-Charles.Gilbert@inria.fr)
+- Baptiste PlaqueventJourdain (Baptiste.Plaquevent-Jourdain@USherbrooke.ca,
+  Baptiste.Plaquevent-Jourdain@inria.fr)
