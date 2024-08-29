@@ -1,0 +1,13 @@
+Authors of the ISF and BDIFFMIN functions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Jean-Pierre Dussault (Université de Sherbrooke, Canada; Jean-Pierre.Dussault@Usherbrooke.CA),
+- Jean Charles Gilbert (INRIA, Paris, France; jean-charles.gilbert@inria.fr),
+- Baptiste Plaquevent-Jourdain (INRIA & Université de Sherbrooke, Canada; Baptiste.Plaquevent-Jourdain@USherbrooke.ca; baptiste.plaquevent-jourdain@inria.fr).
+
+Associated publication
+^^^^^^^^^^^^^^^^^^^^^^
+The functions are described in the paper 'On the B-differential of the
+componentwise minimum of two affine vector functions' by J.-P. Dussault,
+J.Ch. Gilbert and B. Plaqevent-Jourdain. This paper submitted to
+Mathematical Programming Computation is available on
+http://hal.archives-ouvertes.fr/hal-04048393.

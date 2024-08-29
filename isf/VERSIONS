@@ -1,0 +1,13 @@
+Version 1.0 (May 1, 2023)
+^^^^^^^^^^^^^^^^^^^^^^^^^
+- Initial version
+
+
+Version 1.1 ()
+^^^^^^^^^^^^^^
+- Options.svsprod > 0 introduces a way of reducing the cost of
+  determining whether a sign vector covers a stem vector. The usual
+  matrix-vector product is scattered in the S-tree, so that at a new
+  node, only a product of a column of V times a sign and a sum of two
+  vectors must be done, instead of the matrix-vector product. This save
+  computing time when options.sv == 3.
